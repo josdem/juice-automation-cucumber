@@ -1,7 +1,7 @@
 Juice Automation
 ----------------------------------------
 
-This project shows how to test an API using[Cucumber Framework](https://cucumber.io/) and a third-party library [juice-webclient](https://github.com/josdem/juice-webclient)
+This project shows how to test an API using [Cucumber Framework](https://cucumber.io/) and a third-party library [juice-webclient](https://github.com/josdem/juice-webclient)
 
 #### To test the project with Gradle
 
