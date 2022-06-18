@@ -4,7 +4,11 @@ plugins {
 	id 'java'
 }
 
-def juiceWebClientVersion = '1.0.3-SNAPSHOT'
+ext {
+	cucumberVersion = '1.2.6'
+	juiceWebClientVersion = '1.0.3-SNAPSHOT'
+}
+
 
 group = 'com.josdem.jugoterapia.webclient.automation'
 version = '0.0.1-SNAPSHOT'
@@ -28,6 +32,9 @@ dependencies {
 	implementation "com.josdem.jugoterapia.webclient:juice-webclient:$juiceWebClientVersion"
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
+	implementation "info.cukes:cucumber-java:$cucumberVersion"
+	implementation "info.cukes:cucumber-junit:$cucumberVersion"
+	implementation "info.cukes:cucumber-spring:$cucumberVersion"
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
 }
