@@ -5,5 +5,4 @@ import org.springframework.test.context.web.WebAppConfiguration;
 
 @ContextConfiguration(classes = JuiceAutomationApplication.class)
 @WebAppConfiguration
-public class JuiceIntegrationTest {
-}
+public class JuiceIntegrationTest {}
