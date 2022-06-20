@@ -41,4 +41,6 @@ dependencies {
 	testImplementation "org.junit.jupiter:junit-jupiter-engine:$junitJupiterVersion"
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
+	testCompileOnly 'org.projectlombok:lombok'
+	testAnnotationProcessor 'org.projectlombok:lombok'
 }
