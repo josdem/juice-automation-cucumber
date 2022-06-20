@@ -12,7 +12,7 @@ ext {
 
 
 group = 'com.josdem.jugoterapia.webclient.automation'
-version = '0.0.1-SNAPSHOT'
+version = '1.0.0-SNAPSHOT'
 sourceCompatibility = 15
 
 configurations {
