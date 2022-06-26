@@ -29,7 +29,7 @@ public class BeverageByCategoriesJsonNodeTest extends JuiceIntegrationTest {
   private final BeverageService beverageService;
   private final TestDataSource data;
 
-  @Given("List of categories")
+  @Given("List of json node categories")
   public void shouldGetCategories() {
     log.info("Running: List of categories");
     Mono<List<String>> publisher =
@@ -44,7 +44,7 @@ public class BeverageByCategoriesJsonNodeTest extends JuiceIntegrationTest {
         .verifyComplete();
   }
 
-  @When("I get beverages by category")
+  @When("I get a json node beverages by category")
   public void shouldGetBeveragesById() {
     log.info("Running: I get beverages by category");
     Mono<List<String>> publisher =
@@ -61,7 +61,7 @@ public class BeverageByCategoriesJsonNodeTest extends JuiceIntegrationTest {
         .verifyComplete();
   }
 
-  @Then("I get specific beverage")
+  @Then("I get a json node specific beverage")
   public void shouldGetSpecificBeverage() {
     log.info("Running: I get specific beverage");
     Mono<JsonNode> publisher = beverageService.getBeverageAsJson(EXPECTED_BEVERAGE_ID);
