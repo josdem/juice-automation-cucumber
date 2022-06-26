@@ -11,26 +11,10 @@ This project shows how to test an API using [Cucumber Framework](https://cucumbe
 gradle test
 ```
 
-### To run a single test with Gradle
-
-```bash
-gradle test --tests ${testName}
-```
-
-where:
-
-- `${testName}` is the test name you want to execute
-
 #### To test the project with Maven
 
 ```bash
 mvn test
-```
-
-### To run a single test with Maven
-
-```bash
-mvn test -Dtest ${testName}
 ```
 
 #### To run tests with Sonarqube
