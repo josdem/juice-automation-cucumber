@@ -1,4 +1,4 @@
-Juice Automation
+Juice Cucumber Automation
 ----------------------------------------
 
 [![Quality Gate Status](https://sonar.josdem.io/api/project_badges/measure?project=com.josdem.jugoterapia.webclient.automation%3Ajuice-automation-cucumber&metric=alert_status)](https://sonar.josdem.io/dashboard?id=com.josdem.jugoterapia.webclient.automation%3Ajuice-automation-cucumber)
