@@ -1,6 +1,8 @@
 Juice Automation
 ----------------------------------------
 
+[![Quality Gate Status](https://sonar.josdem.io/api/project_badges/measure?project=com.josdem.jugoterapia.webclient.automation%3Ajuice-automation-cucumber&metric=alert_status)](https://sonar.josdem.io/dashboard?id=com.josdem.jugoterapia.webclient.automation%3Ajuice-automation-cucumber)
+
 This project shows how to test an API using [Cucumber Framework](https://cucumber.io/) and a third-party library [juice-webclient](https://github.com/josdem/juice-webclient)
 
 #### To test the project with Gradle
@@ -31,10 +33,10 @@ mvn test
 mvn test -Dtest ${testName}
 ```
 
-#### To run tests with Jacoco and Sonarqube
+#### To run tests with Sonarqube
 
 ```bash
-gradle jacocoTestReport sonarqube test
+gradle sonarqube test
 ```
 
 **Note:** This project requires [juice-webclient](https://github.com/josdem/juice-webclient) as a dependency
