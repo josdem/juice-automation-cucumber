@@ -31,6 +31,7 @@ Visit our wiki page: [Wiki page](https://github.com/josdem/juice-automation/wiki
 
 #### Read this as reference:
 
+* https://josdem.io/techtalk/spring/spring_webflux_cucumber/
 * https://josdem.io/techtalk/spring/spring_boot_webclient/
 * https://josdem.io/techtalk/spring/spring_webflux_client/
 * https://josdem.io/techtalk/spring/spring_webflux_artifactory_library/
